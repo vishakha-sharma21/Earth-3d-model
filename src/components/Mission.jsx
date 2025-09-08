@@ -7,8 +7,8 @@ import React from "react";
 const Mission = () => {
   return (
     // The main container remains with a white background for your overall page section
-    <div className="bg-white rounded-t-[3rem] md:rounded-t-[4rem] p-8 md:p-16">
-      <div className="max-w-4xl mx-auto pt-16">
+<div className="bg-white rounded-t-[3rem] md:rounded-t-[4rem] p-8 md:p-16">
+        <div className="max-w-4xl mx-auto pt-16">
         {/*
           Using gap-x-12 for horizontal spacing. You can adjust this value.
         */}

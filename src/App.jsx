@@ -7,7 +7,7 @@ import { ScrollToPlugin } from "https://cdn.skypack.dev/gsap/ScrollToPlugin"; //
 import Mission from "./components/Mission.jsx";
 import Navbar from "./components/Navbar.jsx";
 import CustomCursor from "./components/CustomCursor.jsx";
-
+import Feature from "./components/Features.jsx";
 // 2. REGISTER BOTH PLUGINS
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
@@ -325,8 +325,8 @@ export default function App() {
             className="relative z-30 min-h-screen"
           >
             <Mission />
+            <Feature />
           </section>
-          
         </main>
       </CustomCursor>
     </>
